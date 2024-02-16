@@ -9,7 +9,7 @@ import Typewriter from "typewriter-effect";
 const Hero = () => {
   const router = useRouter();
   return (
-    <section className="p-4 flex h-screen w-screen max-md:pt-24">
+    <section className="p-4 flex min-h-screen w-screen max-md:pt-24">
       <Container>
         <div className=" flex flex-col md:flex-row w-full h-full">
           <div className=" w-full md:w-1/2  grid place-items-center md:pr-4">
