@@ -17,7 +17,7 @@ export const navLinks = [
 
 const Nav = () => {
   return (
-    <header className="flex p-4 border-b fixed w-screen backdrop-blur-lg">
+    <header className="flex p-4 border-b fixed w-screen top-0 backdrop-blur-lg">
       <Container>
         <div className="flex justify-between items-center md:px-6">
           <div className=" flex items-center">

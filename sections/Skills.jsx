@@ -1,6 +1,7 @@
 import Container from "@/components/Container";
 import SkillCard from "@/components/SkillCard";
 import React from "react";
+import abstract from '@/public/abstract1.svg'
 
 export const skills = [
   { name: "Next.js", image: "/next.png" },
@@ -15,11 +16,13 @@ export const skills = [
 
 const Skills = () => {
   return (
-    <section className="p-4 flex w-screen max-md:mt-6">
+    <section className={`p-4 flex w-screen max-md:mt-6 bg-${abstract}`}>
       <Container>
         <div className=" md:px-4">
           <div className=" text-3xl md:text-5xl font-bold">
-            <span className=" text-primary">Tech Stacks</span> I Use
+            <p>
+              <span className=" text-primary">Tech Stacks</span> I Use
+            </p>
           </div>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 mt-8 xl:grid-cols-5">
             {skills.map((skill) => (
