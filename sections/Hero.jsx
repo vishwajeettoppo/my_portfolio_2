@@ -37,13 +37,13 @@ const Hero = () => {
                 />
               </p>
             </div>
-            <p className=" max-w-sm max-md:text-center">
+            <p className=" max-w-sm max-md:text-center text-info">
               Explore my portfolio to see a showcase of my projects, ranging
               from elegant personal websites to complex web applications. Join
               me on this journey as we transform concepts into captivating
               online experiences that leave a lasting impression.
             </p>
-            <p className=" max-w-sm max-md:text-center">
+            <p className=" max-w-sm max-md:text-center text-info">
               Let&apos;s build something extraordinary together.
             </p>
             <div className="text-primary-foreground text-center flex max-md:flex-col gap-3">

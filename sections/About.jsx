@@ -16,18 +16,18 @@ const About = () => {
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2">
             <div className=" flex flex-col gap-4 sm:pr-4 md:pr-8 lg:pr-16 xl:pr-24 sm:place-content-center">
               <p className="font-bold text-xl md:text-2xl 2xl:text-4xl text-fourth">
-                <span className=" uppercase text-sm text-gray-600">
+                <span className=" uppercase text-sm text-info">
                   Web Developer,
                 </span>{" "}
                 <br />
                 3rd year student persueing B.Tech. from IIITDM Jabalpur
               </p>
-              <p className="text-md text-gray-600">
+              <p className="text-md text-info">
                 Hi there, my name is Vishwajeet, and I&apos;m a Fullstack Web
                 Developer. My passion is to create and develop a clean UI/UX for
                 my users.
               </p>
-              <p className="text-md text-gray-600">
+              <p className="text-md text-info">
                 My main stack current is React/Next.js in combination with
                 Tailwind CSS and Framer Motion. <br />
                 And Node.js for backend.
