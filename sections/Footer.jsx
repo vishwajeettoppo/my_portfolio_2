@@ -16,11 +16,11 @@ export const socials = [
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/vishwajeettoppo/",
   },
-  {
-    icon: <Instagram fontSize="large" />,
-    name: "Instagram",
-    link: "https://www.instagram.com/vishwajeett_07?igsh=MWt0ZHpwZzB1NmhtZQ==",
-  },
+  // {
+  //   icon: <Instagram fontSize="large" />,
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/vishwajeett_07?igsh=MWt0ZHpwZzB1NmhtZQ==",
+  // },
 ];
 
 const Footer = () => {

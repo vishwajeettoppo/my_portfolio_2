@@ -6,30 +6,30 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 import React from "react";
 
 export const projects = [
-  {
-    name: "Project1",
-    image: "/project1.png",
-    desc: "This is project 1",
-    github: "",
-  },
-  {
-    name: "Project2",
-    image: "/project2.png",
-    desc: "This is project 2",
-    github: "",
-  },
-  {
-    name: "Project3",
-    image: "/project3.png",
-    desc: "This is project 3",
-    github: "",
-  },
-  {
-    name: "Project4",
-    image: "/project4.png",
-    desc: "This is project 4",
-    github: "",
-  },
+  // {
+  //   name: "Project1",
+  //   image: "/project1.png",
+  //   desc: "This is project 1",
+  //   github: "",
+  // },
+  // {
+  //   name: "Project2",
+  //   image: "/project2.png",
+  //   desc: "This is project 2",
+  //   github: "",
+  // },
+  // {
+  //   name: "Project3",
+  //   image: "/project3.png",
+  //   desc: "This is project 3",
+  //   github: "",
+  // },
+  // {
+  //   name: "Project4",
+  //   image: "/project4.png",
+  //   desc: "This is project 4",
+  //   github: "",
+  // },
 ];
 
 const Works = () => {
