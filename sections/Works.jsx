@@ -34,7 +34,7 @@ export const projects = [
 
 const Works = () => {
   return (
-    <section className={`p-4 flex w-screen max-md:mt-6`}>
+    <section id="projects" className={`p-4 flex w-screen max-md:mt-6 pt-20`}>
       <Container>
         <div className=" md:px-4 flex flex-col gap-4">
           <div className=" text-3xl md:text-5xl font-bold">
@@ -49,7 +49,7 @@ const Works = () => {
             dedication.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
             {projects.map((project) => (
               <div key={project.name}>
                 <ProjectCard {...project} />
@@ -57,7 +57,7 @@ const Works = () => {
             ))}
           </div>
 
-          <Button variant="secondary">
+          <Button variant="secondary" size='lg'>
             <div className="flex items-center gap-2">
               <p>See all Projects </p> <ArrowRightIcon />
             </div>

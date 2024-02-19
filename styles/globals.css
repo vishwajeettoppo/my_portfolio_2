@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
  
-*{
-  @apply border border-red-500;
-}
+
 
 @layer base {
   :root {
@@ -58,9 +56,9 @@
  
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border scroll-smooth;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground  overflow-x-hidden;
   }
 }

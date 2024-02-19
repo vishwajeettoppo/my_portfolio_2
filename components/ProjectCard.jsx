@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "./ui/button";
-import { GitHub, LiveTvOutlined } from "@mui/icons-material";
+import { GitHub, Launch, LiveTvOutlined } from "@mui/icons-material";
 import Image from "next/image";
 
 const ProjectCard = ({ name, image, desc }) => {
@@ -23,11 +23,11 @@ const ProjectCard = ({ name, image, desc }) => {
             </div>
             <div className="flex">
               <Button variant="icon">
-                <LiveTvOutlined />
+                <Launch fontSize="large" />
               </Button>
               <Button variant="icon">
                 <div className=" ">
-                  <GitHub />
+                  <GitHub fontSize="large"  />
                 </div>
               </Button>
             </div>

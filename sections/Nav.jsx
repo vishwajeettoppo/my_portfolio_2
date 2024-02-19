@@ -1,15 +1,13 @@
 import React from "react";
-import { Switch } from "@/components/ui/switch";
-import { Label } from "@/components/ui/label";
 import Container from "@/components/Container";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import ThemeToggle from "@/components/ThemeToggle";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import SideNav from "@/components/SideNav";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
+  { href: "#skills", label: "Skills" },
   { href: "#about", label: "About Me" },
   { href: "#projects", label: "Projects" },
   { href: "#contact", label: "Contact Me" },
