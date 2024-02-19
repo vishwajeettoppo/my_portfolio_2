@@ -26,7 +26,7 @@ export const socials = [
 const Footer = () => {
   return (
     <section
-      className={`p-4 absolute mb-0 w-screen mt-8 border-t bg-black text-white pt-20`}
+      className={`p-4 absolute mb-0 w-screen mt-8 border-t bg-black text-white pt-4`}
     >
       <Container>
         <div className=" md:px-4 flex justify-evenly">
