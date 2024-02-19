@@ -13,8 +13,8 @@ import Image from "next/image";
 
 const ProjectCard = ({ name, image, desc }) => {
   return (
-    <div>
-      <Card>
+    <div className="">
+      <Card className='bg-accent'>
         <CardHeader>
           <div className="flex justify-between gap-4 md:gap-8">
             <div>
